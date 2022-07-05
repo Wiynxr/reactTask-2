@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+    margin: 50px auto;
+    width: 770px;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+    width: 50%;
+}
+
+
+.Number h1 {
+    color: #F27C0F;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 180px;
+    font-weight: 400px;
+}
+
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+    width: 70%;
+}
+
+
+.btn-1 {
+    background-color: blue;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-2 {
+    background-color: #F27C0F;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-3 {
+    background-color: #eee;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    width: 770px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+}
+
+
+.FooterMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+
+.FooterMenu a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Copyright {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.FooterLogo {
+    width:  15%;
+}
